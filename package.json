@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/jinji-jiangyang/generator-h5workflow/issues"
   },
-  "homepage": "https://github.com/jinji-jiangyang/generator-h5workflow#readme"
+  "homepage": "https://github.com/jinji-jiangyang/generator-h5workflow#readme",
+  "devDependencies": {
+    "chalk": "^1.1.3",
+    "path": "^0.12.7",
+    "util": "^0.10.3",
+    "yeoman-generator": "^0.24.1",
+    "yosay": "^1.2.1"
+  }
 }
