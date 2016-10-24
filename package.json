@@ -1,0 +1,22 @@
+{
+  "name": "generator-h5workflow",
+  "version": "1.0.0",
+  "description": "html5项目目录快速生成器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinji-jiangyang/generator-h5workflow.git"
+  },
+  "keywords": [
+    "generator-h5workflow"
+  ],
+  "author": "JiangYang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jinji-jiangyang/generator-h5workflow/issues"
+  },
+  "homepage": "https://github.com/jinji-jiangyang/generator-h5workflow#readme"
+}
