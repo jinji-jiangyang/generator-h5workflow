@@ -1,7 +1,7 @@
 {
   "name": "generator-h5workflow",
-  "version": "1.0.2",
-  "description": "html5项目目录快速生成器",
+  "version": "1.0.3",
+  "description": "基于gulp的html5项目yeoman快速生成器",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
     "generator-h5workflow",
     "yeoman-generator"
   ],
-  "author": "JiangYang",
+  "author": "JiangYang<949722016@qq.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jinji-jiangyang/generator-h5workflow/issues"
