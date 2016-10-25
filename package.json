@@ -1,6 +1,6 @@
 {
   "name": "generator-h5workflow",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "html5项目目录快速生成器",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jinji-jiangyang/generator-h5workflow.git"
+    "url": "https://github.com/jinji-jiangyang/generator-h5workflow.git"
   },
   "keywords": [
-    "generator-h5workflow"
+    "generator-h5workflow",
+    "yeoman-generator"
   ],
   "author": "JiangYang",
   "license": "MIT",
