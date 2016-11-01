@@ -45,7 +45,7 @@ gulp.task("view: dev", function () {
         .pipe(reload({stream: true}))
 });
 gulp.task("style: dev", function () {
-    return gulp.src("src/static/less/*.less")
+    return gulp.src("src/static/style/*.less")
         .pipe(less())
         .pipe(autoprefixer({
             browsers: ['Firefox >= 20', '> 5%', 'last 2 versions'],
@@ -77,9 +77,9 @@ gulp.task('dev', ['view: dev', 'style: dev', 'script: dev', 'vendor: dev', 'img:
             baseDir: "./dist"
         },
         notify: false
-    })
+    });
     gulp.watch('src/static/js/*.js', ['script: dev'])
-    gulp.watch('src/static/less/*.less', ['style: dev'])
+    gulp.watch('src/static/style/*.less', ['style: dev'])
     gulp.watch('src/views/*.html', ['view: dev'])
     gulp.watch('src/static/img/*', ['img: dev'])
     gulp.watch('src/static/vendor/*', ['vendor: dev'])
